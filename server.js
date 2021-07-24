@@ -7,4 +7,4 @@ const port = 3000
 app.use(serveStatic(path.join(__dirname, "build/")));
 
 app.get('/', (req, res) => res.sendFile(path.join(__dirname, "build")));
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.listen(port, () => console.log(`Example app listening on port ${port}!`));
