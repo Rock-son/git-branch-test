@@ -16,7 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-	"dev": "node server.js || &>null"
+	"dev": "node server.js"
   },
   "eslintConfig": {
     "extends": [
